@@ -68,3 +68,7 @@ input[type="text"], input[type="email"] {
 #menu {
   width: 80vw;
 }
+
+.navbar {
+  background-color: #7DCBA1;
+}
