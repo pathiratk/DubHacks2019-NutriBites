@@ -17,6 +17,7 @@
 
     <!-- Custom styles for this template -->
     <link href="./Checkout example_files/form-validation.css" rel="stylesheet">
+    <link href="checkout.css" rel="stylesheet">
     <script type="text/javascript" src="/path/to/jquery.js"></script>
     <script type="text/javascript" src="/path/to/moment.js"></script>
     <script type="text/javascript" src="/path/to/bootstrap/js/transition.js"></script>
@@ -26,10 +27,17 @@
   </head>
 
   <body class="bg-light" data-gr-c-s-loaded="true">
-
+      <header>
+          <div class="navbar navbar-dark shadow-sm">
+             <div class="container d-flex justify-content-between">
+                <a href="#" class="navbar-brand d-flex align-items-center">
+                   <img src="images/logo-rect.png" width="250">
+                </a>
+             </div>
+          </div>
+       </header>
     <div class="container">
       <div class="py-5 text-center">
-        <img class="d-block mx-auto mb-4" src="./Checkout example_files/bootstrap-solid.svg" alt="" width="72" height="72">
         <h2>Checkout</h2>
         <p class="lead">Please check the information before checkout</p>
       </div>
@@ -172,23 +180,7 @@
           </form>
         </div>
       </div>
-
-      <div class="input-group bootstrap-timepicker timepicker">
-          <input id="timepicker1" type="text" class="form-control input-small">
-          <span class="input-group-addon"><i class="glyphicon glyphicon-time"></i></span>
-      </div>
-
-      <script type="text/javascript">
-          $('#timepicker1').timepicker();
-      </script>
-
       <footer class="my-5 pt-5 text-muted text-center text-small">
-        <p class="mb-1">© 2017-2018 Company Name</p>
-        <ul class="list-inline">
-          <li class="list-inline-item"><a href="https://getbootstrap.com/docs/4.0/examples/checkout/#">Privacy</a></li>
-          <li class="list-inline-item"><a href="https://getbootstrap.com/docs/4.0/examples/checkout/#">Terms</a></li>
-          <li class="list-inline-item"><a href="https://getbootstrap.com/docs/4.0/examples/checkout/#">Support</a></li>
-        </ul>
       </footer>
     </div>
 
