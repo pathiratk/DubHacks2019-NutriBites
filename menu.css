@@ -10,3 +10,8 @@ img {
 .navbar {
    background-color: #7DCBA1;
 }
+
+.dark {
+   background-color: #7DCBA1;
+   color: #e9edd5;
+ }
