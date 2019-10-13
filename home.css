@@ -1,6 +1,6 @@
 .dark {
-  background-color: #b84b84;
-  color: white;
+  background-color: #8FC8A4;
+  color: #e9edd5;
 }
 
 input[type="text"]:hover {
@@ -11,12 +11,12 @@ input[type="text"]:hover {
   cursor: pointer;
 }
 
-header .link:hover {
+.link:hover {
   text-decoration: underline;
 }
 
-a, a:hover {
-  color: white;
+a:hover {
+  color: #b0d8bf;
 }
 
 input[type="text"], input[type="email"] {
@@ -27,17 +27,17 @@ input[type="text"], input[type="email"] {
 }
 
 .card {
-  border-radius: 3px;
-  border: 2px solid white;
+  border: none;
+  border-radius: 10px;
   margin: 6px;
   width: 20vw;
   min-width: 200px;
   height: 350px;
-  transition: border-color 0.2s;
+  transition: box-shadow 0.2s;
 }
 
 .card:hover {
-  border-color: #c66e9c;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .card img {
@@ -48,10 +48,6 @@ input[type="text"], input[type="email"] {
 
 .card p {
   margin: 0px 15px;
-}
-
-#nav-bar a {
-  margin: 0px 20px;
 }
 
 #home img {
