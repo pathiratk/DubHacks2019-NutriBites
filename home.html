@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<!--
+Name: Rit Hong
+Date: August 14, 2019
+-->
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js"></script>
+    <link rel="icon" href="images/shuttlecock-icon-white.png">
+    <title>Campus Food</title>
+  </head>
+
+  <body>
+    <header class="row navbar dark">
+      <div id="nav-bar" class="col row">
+        <text class="col link">Home</text>
+        <text class="col link">Search</text>
+        <text class="col link">Chart</text>
+      </div>
+
+      <div id="logo" class="col text-center">
+        <img src="images/shuttlecock-icon-white.png" alt="cafe logo">
+        <h1>Campus Food</h1>
+      </div>
+
+      <div id="user" class="col text-right pr-4">
+        <p id="log-in" class="link">Log in</p>
+      </div>
+    </header>
+
+    <main>
+      <section id="home-view" class="text-center">
+        <section id="home">
+          <img src="images/food-home.jpeg" alt="food img">
+        </section>
+        <section id="browse" class="py-4">
+          <h2>Restaurants</h2>
+          <input type="text" value="" placeholder="Search">
+          <div id="items" class="d-flex justify-content-center flex-wrap" >
+            <div class="card">
+              <img src="images/food-home.jpeg">
+              <h4>name</h4>
+              <p>description</p>
+            </div>
+            <div class="card">
+              <img src="images/food-home.jpeg">
+              <h4>name</h4>
+              <p>description</p>
+            </div>
+            <div class="card">
+              <img src="images/food-home.jpeg">
+              <h4>name</h4>
+              <p>description</p>
+            </div>
+            <div class="card">
+              <img src="images/food-home.jpeg">
+              <h4>name</h4>
+              <p>description</p>
+            </div>
+            <div class="card">
+              <img src="images/food-home.jpeg">
+              <h4>name</h4>
+              <p>description</p>
+            </div>
+            <div class="card">
+              <img src="images/food-home.jpeg">
+              <h4>name</h4>
+              <p>description</p>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <section id="menu-view" class="d-none">
+        <div id="sidebar" class="p-3">
+          <h3>Restaurants</h3>
+          <p class="link">restaurant</p>
+          <p class="link">restaurant</p>
+          <p class="link">restaurant</p>
+          <p class="link">restaurant</p>
+          <p class="link">restaurant</p>
+        </div>
+        <div id="menu" class="p-3">
+          <h2>Menu</h2>
+          <div class="items link">menu</div>
+          <div class="items link">menu</div>
+        </div>
+      </section>
+
+    </main>
+    <footer class="dark d-flex justify-content-between align-items-center p-4">
+      <div id="contact">
+        <h3>Contact</h3>
+        <p>Email: varith@uw.edu</p>
+        <p>Call: 123-456-7890</p>
+      </div>
+      <div id="copyright">
+        <p>Copyright &copy Rit Hong 2019</p>
+      </div>
+    </footer>
+  </body>
+</html>
